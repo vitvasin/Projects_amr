@@ -1,0 +1,20 @@
+[0.017s] Invoking command in '/home/vivit/Projects/smr_tutorial/build/led_interface_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy /usr/bin/cmake --build /home/vivit/Projects/smr_tutorial/build/led_interface_cpp -- -j12 -l12
+[0.059s] [ 50%] [32mBuilding CXX object CMakeFiles/led_interface_cpp.dir/src/led_interface.cpp.o[0m
+[1.790s] [01m[K/home/vivit/Projects/smr_tutorial/src/led_interface_cpp/src/led_interface.cpp:[m[K In member function ‘[01m[Kvoid LedInterface::[01;32m[Kcallback[m[K(std_msgs::msg::Bool_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.790s] [01m[K/home/vivit/Projects/smr_tutorial/src/led_interface_cpp/src/led_interface.cpp:49:50:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+[1.790s]    49 |             } catch (const LibSerial::WriteFailed[01;31m[K&[m[K) {
+[1.791s]       |                                                  [01;31m[K^[m[K
+[1.791s] [01m[K/home/vivit/Projects/smr_tutorial/src/led_interface_cpp/src/led_interface.cpp:49:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[1.791s] [01m[K/home/vivit/Projects/smr_tutorial/src/led_interface_cpp/src/led_interface.cpp:49:21:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[1.791s]    49 |             } catch [01;36m[K([m[Kconst LibSerial::WriteFailed&) {
+[1.791s]       |                     [01;36m[K^[m[K
+[1.791s] [01m[K/home/vivit/Projects/smr_tutorial/src/led_interface_cpp/src/led_interface.cpp:49:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K&[m[K’ token
+[1.791s]    49 |             } catch (const LibSerial::WriteFailed[01;31m[K&[m[K) {
+[1.791s]       |                                                  [01;31m[K^[m[K
+[1.791s] [01m[K/home/vivit/Projects/smr_tutorial/src/led_interface_cpp/src/led_interface.cpp:49:51:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[1.791s]    49 |             } catch (const LibSerial::WriteFailed&[01;31m[K)[m[K {
+[1.791s]       |                                                   [01;31m[K^[m[K
+[3.392s] gmake[2]: *** [CMakeFiles/led_interface_cpp.dir/build.make:76: CMakeFiles/led_interface_cpp.dir/src/led_interface.cpp.o] Error 1
+[3.392s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/led_interface_cpp.dir/all] Error 2
+[3.392s] gmake: *** [Makefile:146: all] Error 2
+[3.394s] Invoked command in '/home/vivit/Projects/smr_tutorial/build/led_interface_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy /usr/bin/cmake --build /home/vivit/Projects/smr_tutorial/build/led_interface_cpp -- -j12 -l12

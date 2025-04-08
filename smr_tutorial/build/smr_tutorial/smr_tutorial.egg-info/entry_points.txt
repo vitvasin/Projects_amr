@@ -1,0 +1,5 @@
+[console_scripts]
+example1 = smr_tutorial.example1:main
+example2 = smr_tutorial.example2:main
+example3 = smr_tutorial.example3:main
+example4 = smr_tutorial.example4:main

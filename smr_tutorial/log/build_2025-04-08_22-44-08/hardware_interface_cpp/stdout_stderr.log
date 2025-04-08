@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/led_interface.dir/src/led_interface.cpp.o[0m
+[100%] [32m[1mLinking CXX executable led_interface[0m
+[100%] Built target led_interface
+-- Install configuration: ""
+-- Installing: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/lib/hardware_interface_cpp/led_interface
+-- Set non-toolchain portion of runtime path of "/home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/lib/hardware_interface_cpp/led_interface" to ""
+-- Up-to-date: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/share/ament_index/resource_index/package_run_dependencies/hardware_interface_cpp
+-- Up-to-date: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/share/ament_index/resource_index/parent_prefix_path/hardware_interface_cpp
+-- Up-to-date: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/share/hardware_interface_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/share/hardware_interface_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/share/hardware_interface_cpp/environment/path.sh
+-- Up-to-date: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/share/hardware_interface_cpp/environment/path.dsv
+-- Up-to-date: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/share/hardware_interface_cpp/local_setup.bash
+-- Up-to-date: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/share/hardware_interface_cpp/local_setup.sh
+-- Up-to-date: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/share/hardware_interface_cpp/local_setup.zsh
+-- Up-to-date: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/share/hardware_interface_cpp/local_setup.dsv
+-- Installing: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/share/hardware_interface_cpp/package.dsv
+-- Up-to-date: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/share/ament_index/resource_index/packages/hardware_interface_cpp
+-- Up-to-date: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/share/hardware_interface_cpp/cmake/hardware_interface_cppConfig.cmake
+-- Up-to-date: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/share/hardware_interface_cpp/cmake/hardware_interface_cppConfig-version.cmake
+-- Up-to-date: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/share/hardware_interface_cpp/package.xml

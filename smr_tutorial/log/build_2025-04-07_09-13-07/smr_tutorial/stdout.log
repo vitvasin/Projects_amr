@@ -1,0 +1,42 @@
+running egg_info
+creating ../../build/smr_tutorial/smr_tutorial.egg-info
+writing ../../build/smr_tutorial/smr_tutorial.egg-info/PKG-INFO
+writing dependency_links to ../../build/smr_tutorial/smr_tutorial.egg-info/dependency_links.txt
+writing requirements to ../../build/smr_tutorial/smr_tutorial.egg-info/requires.txt
+writing top-level names to ../../build/smr_tutorial/smr_tutorial.egg-info/top_level.txt
+writing manifest file '../../build/smr_tutorial/smr_tutorial.egg-info/SOURCES.txt'
+reading manifest file '../../build/smr_tutorial/smr_tutorial.egg-info/SOURCES.txt'
+writing manifest file '../../build/smr_tutorial/smr_tutorial.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vivit/Projects/smr_tutorial/build/smr_tutorial/build
+creating /home/vivit/Projects/smr_tutorial/build/smr_tutorial/build/lib
+creating /home/vivit/Projects/smr_tutorial/build/smr_tutorial/build/lib/smr_tutorial
+copying smr_tutorial/example3.py -> /home/vivit/Projects/smr_tutorial/build/smr_tutorial/build/lib/smr_tutorial
+copying smr_tutorial/__init__.py -> /home/vivit/Projects/smr_tutorial/build/smr_tutorial/build/lib/smr_tutorial
+copying smr_tutorial/example2.py -> /home/vivit/Projects/smr_tutorial/build/smr_tutorial/build/lib/smr_tutorial
+copying smr_tutorial/example1.py -> /home/vivit/Projects/smr_tutorial/build/smr_tutorial/build/lib/smr_tutorial
+copying smr_tutorial/example4.py -> /home/vivit/Projects/smr_tutorial/build/smr_tutorial/build/lib/smr_tutorial
+running install
+running install_lib
+creating /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages/smr_tutorial
+copying /home/vivit/Projects/smr_tutorial/build/smr_tutorial/build/lib/smr_tutorial/example3.py -> /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages/smr_tutorial
+copying /home/vivit/Projects/smr_tutorial/build/smr_tutorial/build/lib/smr_tutorial/__init__.py -> /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages/smr_tutorial
+copying /home/vivit/Projects/smr_tutorial/build/smr_tutorial/build/lib/smr_tutorial/example2.py -> /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages/smr_tutorial
+copying /home/vivit/Projects/smr_tutorial/build/smr_tutorial/build/lib/smr_tutorial/example1.py -> /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages/smr_tutorial
+copying /home/vivit/Projects/smr_tutorial/build/smr_tutorial/build/lib/smr_tutorial/example4.py -> /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages/smr_tutorial
+byte-compiling /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages/smr_tutorial/example3.py to example3.cpython-312.pyc
+byte-compiling /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages/smr_tutorial/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages/smr_tutorial/example2.py to example2.cpython-312.pyc
+byte-compiling /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages/smr_tutorial/example1.py to example1.cpython-312.pyc
+byte-compiling /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages/smr_tutorial/example4.py to example4.cpython-312.pyc
+running install_data
+creating /home/vivit/Projects/smr_tutorial/install/smr_tutorial/share/ament_index
+creating /home/vivit/Projects/smr_tutorial/install/smr_tutorial/share/ament_index/resource_index
+creating /home/vivit/Projects/smr_tutorial/install/smr_tutorial/share/ament_index/resource_index/packages
+copying resource/smr_tutorial -> /home/vivit/Projects/smr_tutorial/install/smr_tutorial/share/ament_index/resource_index/packages
+copying package.xml -> /home/vivit/Projects/smr_tutorial/install/smr_tutorial/share/smr_tutorial
+running install_egg_info
+Copying ../../build/smr_tutorial/smr_tutorial.egg-info to /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages/smr_tutorial-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/vivit/Projects/smr_tutorial/build/smr_tutorial/install.log'

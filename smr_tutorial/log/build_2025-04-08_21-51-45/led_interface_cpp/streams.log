@@ -1,0 +1,38 @@
+[0.015s] Invoking command in '/home/vivit/Projects/smr_tutorial/build/led_interface_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy /usr/bin/cmake --build /home/vivit/Projects/smr_tutorial/build/led_interface_cpp -- -j12 -l12
+[0.033s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.206s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.277s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.284s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.292s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.303s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.352s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.353s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.462s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.568s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.670s] -- Configuring done (0.6s)
+[0.680s] -- Generating done (0.0s)
+[0.683s] -- Build files have been written to: /home/vivit/Projects/smr_tutorial/build/led_interface_cpp
+[0.705s] [ 50%] [32mBuilding CXX object CMakeFiles/led_interface.dir/src/led_interface.cpp.o[0m
+[6.322s] [100%] [32m[1mLinking CXX executable led_interface[0m
+[6.531s] [100%] Built target led_interface
+[6.542s] Invoked command in '/home/vivit/Projects/smr_tutorial/build/led_interface_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy /usr/bin/cmake --build /home/vivit/Projects/smr_tutorial/build/led_interface_cpp -- -j12 -l12
+[6.544s] Invoking command in '/home/vivit/Projects/smr_tutorial/build/led_interface_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy /usr/bin/cmake --install /home/vivit/Projects/smr_tutorial/build/led_interface_cpp
+[6.549s] -- Install configuration: ""
+[6.549s] -- Installing: /home/vivit/Projects/smr_tutorial/install/led_interface_cpp/lib/led_interface_cpp/led_interface
+[6.552s] -- Set non-toolchain portion of runtime path of "/home/vivit/Projects/smr_tutorial/install/led_interface_cpp/lib/led_interface_cpp/led_interface" to ""
+[6.552s] -- Installing: /home/vivit/Projects/smr_tutorial/install/led_interface_cpp/share/ament_index/resource_index/package_run_dependencies/led_interface_cpp
+[6.552s] -- Installing: /home/vivit/Projects/smr_tutorial/install/led_interface_cpp/share/ament_index/resource_index/parent_prefix_path/led_interface_cpp
+[6.552s] -- Installing: /home/vivit/Projects/smr_tutorial/install/led_interface_cpp/share/led_interface_cpp/environment/ament_prefix_path.sh
+[6.553s] -- Installing: /home/vivit/Projects/smr_tutorial/install/led_interface_cpp/share/led_interface_cpp/environment/ament_prefix_path.dsv
+[6.553s] -- Installing: /home/vivit/Projects/smr_tutorial/install/led_interface_cpp/share/led_interface_cpp/environment/path.sh
+[6.553s] -- Installing: /home/vivit/Projects/smr_tutorial/install/led_interface_cpp/share/led_interface_cpp/environment/path.dsv
+[6.553s] -- Installing: /home/vivit/Projects/smr_tutorial/install/led_interface_cpp/share/led_interface_cpp/local_setup.bash
+[6.553s] -- Installing: /home/vivit/Projects/smr_tutorial/install/led_interface_cpp/share/led_interface_cpp/local_setup.sh
+[6.553s] -- Installing: /home/vivit/Projects/smr_tutorial/install/led_interface_cpp/share/led_interface_cpp/local_setup.zsh
+[6.553s] -- Installing: /home/vivit/Projects/smr_tutorial/install/led_interface_cpp/share/led_interface_cpp/local_setup.dsv
+[6.553s] -- Installing: /home/vivit/Projects/smr_tutorial/install/led_interface_cpp/share/led_interface_cpp/package.dsv
+[6.553s] -- Installing: /home/vivit/Projects/smr_tutorial/install/led_interface_cpp/share/ament_index/resource_index/packages/led_interface_cpp
+[6.553s] -- Installing: /home/vivit/Projects/smr_tutorial/install/led_interface_cpp/share/led_interface_cpp/cmake/led_interface_cppConfig.cmake
+[6.554s] -- Installing: /home/vivit/Projects/smr_tutorial/install/led_interface_cpp/share/led_interface_cpp/cmake/led_interface_cppConfig-version.cmake
+[6.554s] -- Installing: /home/vivit/Projects/smr_tutorial/install/led_interface_cpp/share/led_interface_cpp/package.xml
+[6.555s] Invoked command in '/home/vivit/Projects/smr_tutorial/build/led_interface_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy /usr/bin/cmake --install /home/vivit/Projects/smr_tutorial/build/led_interface_cpp

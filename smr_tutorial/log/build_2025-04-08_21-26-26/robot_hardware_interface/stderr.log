@@ -1,0 +1,7 @@
+[01m[K/home/vivit/Projects/smr_tutorial/src/robot_hardware_interface/src/robot_hardware_interface.cpp:[m[K In member function ‘[01m[Kvoid HardwareInterface::[01;32m[KReceiveData[m[K()[m[K’:
+[01m[K/home/vivit/Projects/smr_tutorial/src/robot_hardware_interface/src/robot_hardware_interface.cpp:210:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdata_len[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  210 |         uint8_t [01;35m[Kdata_len[m[K;
+      |                 [01;35m[K^~~~~~~~[m[K
+[01m[K/home/vivit/Projects/smr_tutorial/src/robot_hardware_interface/src/robot_hardware_interface.cpp:213:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcheck_sum[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  213 |         uint8_t [01;35m[Kcheck_sum[m[K;
+      |                 [01;35m[K^~~~~~~~~[m[K

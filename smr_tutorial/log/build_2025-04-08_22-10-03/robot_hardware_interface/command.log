@@ -1,0 +1,1 @@
+Invoking command in '/home/vivit/Projects/smr_tutorial/build/robot_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy /usr/bin/cmake --build /home/vivit/Projects/smr_tutorial/build/robot_hardware_interface -- -j12 -l12

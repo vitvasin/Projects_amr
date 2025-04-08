@@ -1,0 +1,10 @@
+[0.014s] Invoking command in '/home/vivit/Projects/smr_tutorial/build/led_interface_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy /usr/bin/cmake --build /home/vivit/Projects/smr_tutorial/build/led_interface_cpp -- -j12 -l12
+[0.060s] [ 50%] [32mBuilding CXX object CMakeFiles/led_interface_cpp.dir/src/led_interface.cpp.o[0m
+[0.211s] [01m[K/home/vivit/Projects/smr_tutorial/src/led_interface_cpp/src/led_interface.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kserial/serial.h: No such file or directory
+[0.212s]     3 | #include [01;31m[K<serial/serial.h>[m[K
+[0.212s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[0.212s] compilation terminated.
+[0.213s] gmake[2]: *** [CMakeFiles/led_interface_cpp.dir/build.make:76: CMakeFiles/led_interface_cpp.dir/src/led_interface.cpp.o] Error 1
+[0.213s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/led_interface_cpp.dir/all] Error 2
+[0.214s] gmake: *** [Makefile:146: all] Error 2
+[0.219s] Invoked command in '/home/vivit/Projects/smr_tutorial/build/led_interface_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy /usr/bin/cmake --build /home/vivit/Projects/smr_tutorial/build/led_interface_cpp -- -j12 -l12

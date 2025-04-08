@@ -1,0 +1,45 @@
+[0.021s] Invoking command in '/home/vivit/Projects/smr_tutorial/build/led_interface_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy /usr/bin/cmake /home/vivit/Projects/smr_tutorial/src/led_interface_cpp -DCMAKE_INSTALL_PREFIX=/home/vivit/Projects/smr_tutorial/install/led_interface_cpp
+[0.214s] -- The C compiler identification is GNU 13.3.0
+[0.492s] -- The CXX compiler identification is GNU 13.3.0
+[0.679s] -- Detecting C compiler ABI info
+[0.807s] -- Detecting C compiler ABI info - done
+[0.816s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.817s] -- Detecting C compile features
+[0.817s] -- Detecting C compile features - done
+[0.855s] -- Detecting CXX compiler ABI info
+[0.965s] -- Detecting CXX compiler ABI info - done
+[0.973s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.974s] -- Detecting CXX compile features
+[0.974s] -- Detecting CXX compile features - done
+[0.987s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.099s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.194s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.278s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.290s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.312s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.332s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.410s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.414s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.478s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.532s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.572s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.676s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.149s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[2.149s]   By not providing "Findserial.cmake" in CMAKE_MODULE_PATH this project has
+[2.149s]   asked CMake to find a package configuration file provided by "serial", but
+[2.149s]   CMake did not find one.
+[2.149s] 
+[2.149s]   Could not find a package configuration file provided by "serial" with any
+[2.150s]   of the following names:
+[2.150s] 
+[2.150s]     serialConfig.cmake
+[2.150s]     serial-config.cmake
+[2.150s] 
+[2.150s]   Add the installation prefix of "serial" to CMAKE_PREFIX_PATH or set
+[2.150s]   "serial_DIR" to a directory containing one of the above files.  If "serial"
+[2.150s]   provides a separate development package or SDK, be sure it has been
+[2.150s]   installed.
+[2.150s] 
+[2.150s] [0m
+[2.150s] -- Configuring incomplete, errors occurred!
+[2.158s] Invoked command in '/home/vivit/Projects/smr_tutorial/build/led_interface_cpp' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy /usr/bin/cmake /home/vivit/Projects/smr_tutorial/src/led_interface_cpp -DCMAKE_INSTALL_PREFIX=/home/vivit/Projects/smr_tutorial/install/led_interface_cpp

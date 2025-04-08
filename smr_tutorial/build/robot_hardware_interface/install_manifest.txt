@@ -1,0 +1,16 @@
+/home/vivit/Projects/smr_tutorial/install/robot_hardware_interface/lib/robot_hardware_interface/robot_hardware
+/home/vivit/Projects/smr_tutorial/install/robot_hardware_interface/share/ament_index/resource_index/package_run_dependencies/robot_hardware_interface
+/home/vivit/Projects/smr_tutorial/install/robot_hardware_interface/share/ament_index/resource_index/parent_prefix_path/robot_hardware_interface
+/home/vivit/Projects/smr_tutorial/install/robot_hardware_interface/share/robot_hardware_interface/environment/ament_prefix_path.sh
+/home/vivit/Projects/smr_tutorial/install/robot_hardware_interface/share/robot_hardware_interface/environment/ament_prefix_path.dsv
+/home/vivit/Projects/smr_tutorial/install/robot_hardware_interface/share/robot_hardware_interface/environment/path.sh
+/home/vivit/Projects/smr_tutorial/install/robot_hardware_interface/share/robot_hardware_interface/environment/path.dsv
+/home/vivit/Projects/smr_tutorial/install/robot_hardware_interface/share/robot_hardware_interface/local_setup.bash
+/home/vivit/Projects/smr_tutorial/install/robot_hardware_interface/share/robot_hardware_interface/local_setup.sh
+/home/vivit/Projects/smr_tutorial/install/robot_hardware_interface/share/robot_hardware_interface/local_setup.zsh
+/home/vivit/Projects/smr_tutorial/install/robot_hardware_interface/share/robot_hardware_interface/local_setup.dsv
+/home/vivit/Projects/smr_tutorial/install/robot_hardware_interface/share/robot_hardware_interface/package.dsv
+/home/vivit/Projects/smr_tutorial/install/robot_hardware_interface/share/ament_index/resource_index/packages/robot_hardware_interface
+/home/vivit/Projects/smr_tutorial/install/robot_hardware_interface/share/robot_hardware_interface/cmake/robot_hardware_interfaceConfig.cmake
+/home/vivit/Projects/smr_tutorial/install/robot_hardware_interface/share/robot_hardware_interface/cmake/robot_hardware_interfaceConfig-version.cmake
+/home/vivit/Projects/smr_tutorial/install/robot_hardware_interface/share/robot_hardware_interface/package.xml

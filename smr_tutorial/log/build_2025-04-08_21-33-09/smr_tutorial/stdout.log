@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/smr_tutorial/smr_tutorial.egg-info/PKG-INFO
+writing dependency_links to ../../build/smr_tutorial/smr_tutorial.egg-info/dependency_links.txt
+writing entry points to ../../build/smr_tutorial/smr_tutorial.egg-info/entry_points.txt
+writing requirements to ../../build/smr_tutorial/smr_tutorial.egg-info/requires.txt
+writing top-level names to ../../build/smr_tutorial/smr_tutorial.egg-info/top_level.txt
+reading manifest file '../../build/smr_tutorial/smr_tutorial.egg-info/SOURCES.txt'
+writing manifest file '../../build/smr_tutorial/smr_tutorial.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages/smr_tutorial-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/smr_tutorial/smr_tutorial.egg-info to /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages/smr_tutorial-0.0.0-py3.12.egg-info
+running install_scripts
+Installing example1 script to /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/smr_tutorial
+Installing example2 script to /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/smr_tutorial
+Installing example3 script to /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/smr_tutorial
+Installing example4 script to /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/smr_tutorial
+writing list of installed files to '/home/vivit/Projects/smr_tutorial/build/smr_tutorial/install.log'

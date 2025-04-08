@@ -1,0 +1,46 @@
+[0.015s] Invoking command in '/home/vivit/Projects/smr_tutorial/build/led_interface_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy /usr/bin/cmake --build /home/vivit/Projects/smr_tutorial/build/led_interface_cpp -- -j12 -l12
+[0.058s] [ 50%] [32mBuilding CXX object CMakeFiles/led_interface_cpp.dir/src/led_interface.cpp.o[0m
+[1.695s] [01m[K/home/vivit/Projects/smr_tutorial/src/led_interface_cpp/src/led_interface.cpp:[m[K In constructor ‘[01m[KLedInterface::[01;32m[KLedInterface[m[K()[m[K’:
+[1.695s] [01m[K/home/vivit/Projects/smr_tutorial/src/led_interface_cpp/src/led_interface.cpp:14:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LibSerial::SerialPort[m[K’ has no member named ‘[01m[KsetPort[m[K’; did you mean ‘[01m[KSetParity[m[K’?
+[1.695s]    14 |             serial_.[01;31m[KsetPort[m[K("/dev/esp32");
+[1.695s]       |                     [01;31m[K^~~~~~~[m[K
+[1.695s]       |                     [32m[KSetParity[m[K
+[1.696s] [01m[K/home/vivit/Projects/smr_tutorial/src/led_interface_cpp/src/led_interface.cpp:15:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LibSerial::SerialPort[m[K’ has no member named ‘[01m[KsetBaudrate[m[K’; did you mean ‘[01m[KSetBaudRate[m[K’?
+[1.696s]    15 |             serial_.[01;31m[KsetBaudrate[m[K(115200);
+[1.696s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[1.696s]       |                     [32m[KSetBaudRate[m[K
+[1.696s] [01m[K/home/vivit/Projects/smr_tutorial/src/led_interface_cpp/src/led_interface.cpp:16:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LibSerial::SerialPort[m[K’ has no member named ‘[01m[KsetTimeout[m[K’
+[1.696s]    16 |             serial_.[01;31m[KsetTimeout[m[K(serial::Timeout::simpleTimeout(1000));
+[1.696s]       |                     [01;31m[K^~~~~~~~~~[m[K
+[1.696s] [01m[K/home/vivit/Projects/smr_tutorial/src/led_interface_cpp/src/led_interface.cpp:16:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial[m[K’ has not been declared
+[1.696s]    16 |             serial_.setTimeout([01;31m[Kserial[m[K::Timeout::simpleTimeout(1000));
+[1.696s]       |                                [01;31m[K^~~~~~[m[K
+[1.696s] [01m[K/home/vivit/Projects/smr_tutorial/src/led_interface_cpp/src/led_interface.cpp:17:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LibSerial::SerialPort[m[K’ has no member named ‘[01m[Kopen[m[K’; did you mean ‘[01m[KOpen[m[K’?
+[1.696s]    17 |             serial_.[01;31m[Kopen[m[K();
+[1.696s]       |                     [01;31m[K^~~~[m[K
+[1.696s]       |                     [32m[KOpen[m[K
+[1.697s] [01m[K/home/vivit/Projects/smr_tutorial/src/led_interface_cpp/src/led_interface.cpp:18:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial[m[K’ does not name a type
+[1.697s]    18 |         } catch ([01;31m[Kserial[m[K::IOException &e) {
+[1.697s]       |                  [01;31m[K^~~~~~[m[K
+[1.697s] [01m[K/home/vivit/Projects/smr_tutorial/src/led_interface_cpp/src/led_interface.cpp:18:38:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+[1.697s]    18 |         } catch (serial::IOException [01;31m[K&[m[Ke) {
+[1.697s]       |                                      [01;31m[K^[m[K
+[1.697s] [01m[K/home/vivit/Projects/smr_tutorial/src/led_interface_cpp/src/led_interface.cpp:18:38:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[1.697s] [01m[K/home/vivit/Projects/smr_tutorial/src/led_interface_cpp/src/led_interface.cpp:18:17:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[1.697s]    18 |         } catch [01;36m[K([m[Kserial::IOException &e) {
+[1.697s]       |                 [01;36m[K^[m[K
+[1.697s] [01m[K/home/vivit/Projects/smr_tutorial/src/led_interface_cpp/src/led_interface.cpp:18:38:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K&[m[K’ token
+[1.697s]    18 |         } catch (serial::IOException [01;31m[K&[m[Ke) {
+[1.697s]       |                                      [01;31m[K^[m[K
+[1.701s] [01m[K/home/vivit/Projects/smr_tutorial/src/led_interface_cpp/src/led_interface.cpp:18:39:[m[K [01;31m[Kerror: [m[K‘[01m[Ke[m[K’ was not declared in this scope
+[1.701s]    18 |         } catch (serial::IOException &[01;31m[Ke[m[K) {
+[1.701s]       |                                       [01;31m[K^[m[K
+[1.707s] [01m[K/home/vivit/Projects/smr_tutorial/src/led_interface_cpp/src/led_interface.cpp:[m[K In member function ‘[01m[Kvoid LedInterface::[01;32m[Kcallback[m[K(std_msgs::msg::Bool_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.707s] [01m[K/home/vivit/Projects/smr_tutorial/src/led_interface_cpp/src/led_interface.cpp:31:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass LibSerial::SerialPort[m[K’ has no member named ‘[01m[KisOpen[m[K’; did you mean ‘[01m[KIsOpen[m[K’?
+[1.707s]    31 |         if (serial_.[01;31m[KisOpen[m[K()) {
+[1.707s]       |                     [01;31m[K^~~~~~[m[K
+[1.707s]       |                     [32m[KIsOpen[m[K
+[3.287s] gmake[2]: *** [CMakeFiles/led_interface_cpp.dir/build.make:76: CMakeFiles/led_interface_cpp.dir/src/led_interface.cpp.o] Error 1
+[3.287s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/led_interface_cpp.dir/all] Error 2
+[3.287s] gmake: *** [Makefile:146: all] Error 2
+[3.289s] Invoked command in '/home/vivit/Projects/smr_tutorial/build/led_interface_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy /usr/bin/cmake --build /home/vivit/Projects/smr_tutorial/build/led_interface_cpp -- -j12 -l12

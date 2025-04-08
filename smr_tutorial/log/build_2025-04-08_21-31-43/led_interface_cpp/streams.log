@@ -1,0 +1,34 @@
+[0.014s] Invoking command in '/home/vivit/Projects/smr_tutorial/build/led_interface_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy /usr/bin/cmake /home/vivit/Projects/smr_tutorial/src/led_interface_cpp -DCMAKE_INSTALL_PREFIX=/home/vivit/Projects/smr_tutorial/install/led_interface_cpp
+[0.026s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.191s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.260s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.266s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.274s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.283s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.333s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.335s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.443s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.539s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.549s] -- LibSerial library found: /usr/lib/x86_64-linux-gnu/libserial.so
+[0.549s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.620s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.620s] -- Configured cppcheck include dirs: /home/vivit/Projects/smr_tutorial/src/led_interface_cpp/include
+[0.620s] -- Configured cppcheck exclude dirs and/or files: 
+[0.620s] -- Added test 'lint_cmake' to check CMake code style
+[0.621s] -- Added test 'uncrustify' to check C / C++ code style
+[0.621s] -- Configured uncrustify additional arguments: 
+[0.621s] -- Added test 'xmllint' to check XML markup files
+[0.622s] -- Configuring done (0.6s)
+[0.630s] -- Generating done (0.0s)
+[0.633s] -- Build files have been written to: /home/vivit/Projects/smr_tutorial/build/led_interface_cpp
+[0.639s] Invoked command in '/home/vivit/Projects/smr_tutorial/build/led_interface_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy /usr/bin/cmake /home/vivit/Projects/smr_tutorial/src/led_interface_cpp -DCMAKE_INSTALL_PREFIX=/home/vivit/Projects/smr_tutorial/install/led_interface_cpp
+[0.639s] Invoking command in '/home/vivit/Projects/smr_tutorial/build/led_interface_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy /usr/bin/cmake --build /home/vivit/Projects/smr_tutorial/build/led_interface_cpp -- -j12 -l12
+[0.668s] [ 50%] [32mBuilding CXX object CMakeFiles/led_interface_cpp.dir/src/led_interface.cpp.o[0m
+[0.965s] [01m[K/home/vivit/Projects/smr_tutorial/src/led_interface_cpp/src/led_interface.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kserial/serial.h: No such file or directory
+[0.965s]     3 | #include [01;31m[K<serial/serial.h>[m[K
+[0.966s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[0.966s] compilation terminated.
+[0.967s] gmake[2]: *** [CMakeFiles/led_interface_cpp.dir/build.make:76: CMakeFiles/led_interface_cpp.dir/src/led_interface.cpp.o] Error 1
+[0.967s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/led_interface_cpp.dir/all] Error 2
+[0.967s] gmake: *** [Makefile:146: all] Error 2
+[0.969s] Invoked command in '/home/vivit/Projects/smr_tutorial/build/led_interface_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy /usr/bin/cmake --build /home/vivit/Projects/smr_tutorial/build/led_interface_cpp -- -j12 -l12

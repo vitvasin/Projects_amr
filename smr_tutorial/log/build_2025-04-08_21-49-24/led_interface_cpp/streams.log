@@ -1,0 +1,23 @@
+[0.013s] Invoking command in '/home/vivit/Projects/smr_tutorial/build/led_interface_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy /usr/bin/cmake --build /home/vivit/Projects/smr_tutorial/build/led_interface_cpp -- -j12 -l12
+[0.055s] [ 50%] [32mBuilding CXX object CMakeFiles/led_interface_cpp.dir/src/led_interface.cpp.o[0m
+[5.790s] [100%] [32m[1mLinking CXX executable led_interface_cpp[0m
+[6.004s] /usr/bin/ld: CMakeFiles/led_interface_cpp.dir/src/led_interface.cpp.o: in function `LedInterface::LedInterface()':
+[6.004s] led_interface.cpp:(.text._ZN12LedInterfaceC2Ev[_ZN12LedInterfaceC5Ev]+0x12b): undefined reference to `LibSerial::SerialPort::SerialPort()'
+[6.004s] /usr/bin/ld: led_interface.cpp:(.text._ZN12LedInterfaceC2Ev[_ZN12LedInterfaceC5Ev]+0x1ac): undefined reference to `LibSerial::SerialPort::Open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode const&)'
+[6.004s] /usr/bin/ld: led_interface.cpp:(.text._ZN12LedInterfaceC2Ev[_ZN12LedInterfaceC5Ev]+0x1f5): undefined reference to `LibSerial::SerialPort::SetBaudRate(LibSerial::BaudRate const&)'
+[6.004s] /usr/bin/ld: led_interface.cpp:(.text._ZN12LedInterfaceC2Ev[_ZN12LedInterfaceC5Ev]+0x21f): undefined reference to `LibSerial::SerialPort::SetCharacterSize(LibSerial::CharacterSize const&)'
+[6.004s] /usr/bin/ld: led_interface.cpp:(.text._ZN12LedInterfaceC2Ev[_ZN12LedInterfaceC5Ev]+0x249): undefined reference to `LibSerial::SerialPort::SetStopBits(LibSerial::StopBits const&)'
+[6.005s] /usr/bin/ld: led_interface.cpp:(.text._ZN12LedInterfaceC2Ev[_ZN12LedInterfaceC5Ev]+0x273): undefined reference to `LibSerial::SerialPort::SetParity(LibSerial::Parity const&)'
+[6.005s] /usr/bin/ld: led_interface.cpp:(.text._ZN12LedInterfaceC2Ev[_ZN12LedInterfaceC5Ev]+0x9fd): undefined reference to `LibSerial::SerialPort::~SerialPort()'
+[6.005s] /usr/bin/ld: CMakeFiles/led_interface_cpp.dir/src/led_interface.cpp.o: in function `LedInterface::~LedInterface()':
+[6.005s] led_interface.cpp:(.text._ZN12LedInterfaceD2Ev[_ZN12LedInterfaceD5Ev]+0x2c): undefined reference to `LibSerial::SerialPort::IsOpen() const'
+[6.005s] /usr/bin/ld: led_interface.cpp:(.text._ZN12LedInterfaceD2Ev[_ZN12LedInterfaceD5Ev]+0x42): undefined reference to `LibSerial::SerialPort::Close()'
+[6.005s] /usr/bin/ld: led_interface.cpp:(.text._ZN12LedInterfaceD2Ev[_ZN12LedInterfaceD5Ev]+0x66): undefined reference to `LibSerial::SerialPort::~SerialPort()'
+[6.005s] /usr/bin/ld: CMakeFiles/led_interface_cpp.dir/src/led_interface.cpp.o: in function `LedInterface::callback(std::shared_ptr<std_msgs::msg::Bool_<std::allocator<void> > >)':
+[6.006s] led_interface.cpp:(.text._ZN12LedInterface8callbackESt10shared_ptrIN8std_msgs3msg5Bool_ISaIvEEEE[_ZN12LedInterface8callbackESt10shared_ptrIN8std_msgs3msg5Bool_ISaIvEEEE]+0x40): undefined reference to `LibSerial::SerialPort::IsOpen() const'
+[6.006s] /usr/bin/ld: led_interface.cpp:(.text._ZN12LedInterface8callbackESt10shared_ptrIN8std_msgs3msg5Bool_ISaIvEEEE[_ZN12LedInterface8callbackESt10shared_ptrIN8std_msgs3msg5Bool_ISaIvEEEE]+0xc7): undefined reference to `LibSerial::SerialPort::Write(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[6.029s] collect2: error: ld returned 1 exit status
+[6.030s] gmake[2]: *** [CMakeFiles/led_interface_cpp.dir/build.make:171: led_interface_cpp] Error 1
+[6.030s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/led_interface_cpp.dir/all] Error 2
+[6.030s] gmake: *** [Makefile:146: all] Error 2
+[6.032s] Invoked command in '/home/vivit/Projects/smr_tutorial/build/led_interface_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy /usr/bin/cmake --build /home/vivit/Projects/smr_tutorial/build/led_interface_cpp -- -j12 -l12

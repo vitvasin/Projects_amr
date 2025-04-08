@@ -1,0 +1,49 @@
+[0.587s] Invoking command in '/home/vivit/Projects/smr_tutorial/src/smr_tutorial': PYTHONPATH=/home/vivit/Projects/smr_tutorial/build/smr_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smr_tutorial build --build-base /home/vivit/Projects/smr_tutorial/build/smr_tutorial/build install --record /home/vivit/Projects/smr_tutorial/build/smr_tutorial/install.log --single-version-externally-managed install_data
+[0.779s] running egg_info
+[0.779s] creating ../../build/smr_tutorial/smr_tutorial.egg-info
+[0.791s] writing ../../build/smr_tutorial/smr_tutorial.egg-info/PKG-INFO
+[0.791s] writing dependency_links to ../../build/smr_tutorial/smr_tutorial.egg-info/dependency_links.txt
+[0.791s] writing entry points to ../../build/smr_tutorial/smr_tutorial.egg-info/entry_points.txt
+[0.792s] writing requirements to ../../build/smr_tutorial/smr_tutorial.egg-info/requires.txt
+[0.792s] writing top-level names to ../../build/smr_tutorial/smr_tutorial.egg-info/top_level.txt
+[0.792s] writing manifest file '../../build/smr_tutorial/smr_tutorial.egg-info/SOURCES.txt'
+[0.823s] reading manifest file '../../build/smr_tutorial/smr_tutorial.egg-info/SOURCES.txt'
+[0.824s] writing manifest file '../../build/smr_tutorial/smr_tutorial.egg-info/SOURCES.txt'
+[0.824s] running build
+[0.824s] running build_py
+[0.824s] creating /home/vivit/Projects/smr_tutorial/build/smr_tutorial/build
+[0.824s] creating /home/vivit/Projects/smr_tutorial/build/smr_tutorial/build/lib
+[0.824s] creating /home/vivit/Projects/smr_tutorial/build/smr_tutorial/build/lib/smr_tutorial
+[0.825s] copying smr_tutorial/example3.py -> /home/vivit/Projects/smr_tutorial/build/smr_tutorial/build/lib/smr_tutorial
+[0.825s] copying smr_tutorial/__init__.py -> /home/vivit/Projects/smr_tutorial/build/smr_tutorial/build/lib/smr_tutorial
+[0.825s] copying smr_tutorial/example2.py -> /home/vivit/Projects/smr_tutorial/build/smr_tutorial/build/lib/smr_tutorial
+[0.825s] copying smr_tutorial/example1.py -> /home/vivit/Projects/smr_tutorial/build/smr_tutorial/build/lib/smr_tutorial
+[0.825s] copying smr_tutorial/example4.py -> /home/vivit/Projects/smr_tutorial/build/smr_tutorial/build/lib/smr_tutorial
+[0.826s] running install
+[0.831s] running install_lib
+[0.844s] creating /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages/smr_tutorial
+[0.844s] copying /home/vivit/Projects/smr_tutorial/build/smr_tutorial/build/lib/smr_tutorial/example3.py -> /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages/smr_tutorial
+[0.844s] copying /home/vivit/Projects/smr_tutorial/build/smr_tutorial/build/lib/smr_tutorial/__init__.py -> /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages/smr_tutorial
+[0.844s] copying /home/vivit/Projects/smr_tutorial/build/smr_tutorial/build/lib/smr_tutorial/example2.py -> /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages/smr_tutorial
+[0.844s] copying /home/vivit/Projects/smr_tutorial/build/smr_tutorial/build/lib/smr_tutorial/example1.py -> /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages/smr_tutorial
+[0.845s] copying /home/vivit/Projects/smr_tutorial/build/smr_tutorial/build/lib/smr_tutorial/example4.py -> /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages/smr_tutorial
+[0.845s] byte-compiling /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages/smr_tutorial/example3.py to example3.cpython-312.pyc
+[0.845s] byte-compiling /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages/smr_tutorial/__init__.py to __init__.cpython-312.pyc
+[0.845s] byte-compiling /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages/smr_tutorial/example2.py to example2.cpython-312.pyc
+[0.845s] byte-compiling /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages/smr_tutorial/example1.py to example1.cpython-312.pyc
+[0.846s] byte-compiling /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages/smr_tutorial/example4.py to example4.cpython-312.pyc
+[0.846s] running install_data
+[0.846s] creating /home/vivit/Projects/smr_tutorial/install/smr_tutorial/share/ament_index
+[0.846s] creating /home/vivit/Projects/smr_tutorial/install/smr_tutorial/share/ament_index/resource_index
+[0.846s] creating /home/vivit/Projects/smr_tutorial/install/smr_tutorial/share/ament_index/resource_index/packages
+[0.847s] copying resource/smr_tutorial -> /home/vivit/Projects/smr_tutorial/install/smr_tutorial/share/ament_index/resource_index/packages
+[0.847s] copying package.xml -> /home/vivit/Projects/smr_tutorial/install/smr_tutorial/share/smr_tutorial
+[0.847s] running install_egg_info
+[0.865s] Copying ../../build/smr_tutorial/smr_tutorial.egg-info to /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages/smr_tutorial-0.0.0-py3.12.egg-info
+[0.866s] running install_scripts
+[0.955s] Installing example1 script to /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/smr_tutorial
+[0.955s] Installing example2 script to /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/smr_tutorial
+[0.956s] Installing example3 script to /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/smr_tutorial
+[0.956s] Installing example4 script to /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/smr_tutorial
+[0.956s] writing list of installed files to '/home/vivit/Projects/smr_tutorial/build/smr_tutorial/install.log'
+[0.982s] Invoked command in '/home/vivit/Projects/smr_tutorial/src/smr_tutorial' returned '0': PYTHONPATH=/home/vivit/Projects/smr_tutorial/build/smr_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smr_tutorial build --build-base /home/vivit/Projects/smr_tutorial/build/smr_tutorial/build install --record /home/vivit/Projects/smr_tutorial/build/smr_tutorial/install.log --single-version-externally-managed install_data

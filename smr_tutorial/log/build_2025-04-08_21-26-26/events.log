@@ -1,0 +1,251 @@
+[0.000000] (-) TimerEvent: {}
+[0.000275] (led_interface_cpp) JobQueued: {'identifier': 'led_interface_cpp', 'dependencies': OrderedDict()}
+[0.000328] (robot_hardware_interface) JobQueued: {'identifier': 'robot_hardware_interface', 'dependencies': OrderedDict()}
+[0.000362] (smr_tutorial) JobQueued: {'identifier': 'smr_tutorial', 'dependencies': OrderedDict()}
+[0.000602] (led_interface_cpp) JobStarted: {'identifier': 'led_interface_cpp'}
+[0.006651] (robot_hardware_interface) JobStarted: {'identifier': 'robot_hardware_interface'}
+[0.010559] (smr_tutorial) JobStarted: {'identifier': 'smr_tutorial'}
+[0.018449] (led_interface_cpp) JobProgress: {'identifier': 'led_interface_cpp', 'progress': 'cmake'}
+[0.020370] (led_interface_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/vivit/Projects/smr_tutorial/src/led_interface_cpp', '-DCMAKE_INSTALL_PREFIX=/home/vivit/Projects/smr_tutorial/install/led_interface_cpp'], 'cwd': '/home/vivit/Projects/smr_tutorial/build/led_interface_cpp', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vivit', 'GIT_ASKPASS': '/home/vivit/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/vivit', 'OLDPWD': '/home/vivit/Projects/smr_tutorial/src', 'TERM_PROGRAM_VERSION': '1.99.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-5fee0031-6fed-4d42-a8d5-5279bcf598e8.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/vivit/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/vivit/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vivit/Projects/smr_tutorial/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'vivit', 'NAME': 'DESKTOP-98MUN83', 'WSL_INTEROP': '/run/WSL/409_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/vivit/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.1/:/mnt/c/Users/PC/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/PC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Users/PC/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/PC/AppData/Local/Programs/cursor/resources/app/bin:/snap/bin:/home/vivit/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-dd87288bd3.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/vivit/Projects/smr_tutorial/build/led_interface_cpp', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up'}), 'shell': False}
+[0.023688] (robot_hardware_interface) JobProgress: {'identifier': 'robot_hardware_interface', 'progress': 'cmake'}
+[0.025840] (robot_hardware_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/vivit/Projects/smr_tutorial/src/robot_hardware_interface', '-DCMAKE_INSTALL_PREFIX=/home/vivit/Projects/smr_tutorial/install/robot_hardware_interface'], 'cwd': '/home/vivit/Projects/smr_tutorial/build/robot_hardware_interface', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vivit', 'GIT_ASKPASS': '/home/vivit/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/vivit', 'OLDPWD': '/home/vivit/Projects/smr_tutorial/src', 'TERM_PROGRAM_VERSION': '1.99.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-5fee0031-6fed-4d42-a8d5-5279bcf598e8.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/vivit/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/vivit/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vivit/Projects/smr_tutorial/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'vivit', 'NAME': 'DESKTOP-98MUN83', 'WSL_INTEROP': '/run/WSL/409_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/vivit/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.1/:/mnt/c/Users/PC/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/PC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Users/PC/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/PC/AppData/Local/Programs/cursor/resources/app/bin:/snap/bin:/home/vivit/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-dd87288bd3.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/vivit/Projects/smr_tutorial/build/robot_hardware_interface', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up'}), 'shell': False}
+[0.100419] (-) TimerEvent: {}
+[0.202496] (-) TimerEvent: {}
+[0.214298] (led_interface_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.214975] (robot_hardware_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.302703] (-) TimerEvent: {}
+[0.403151] (-) TimerEvent: {}
+[0.492975] (robot_hardware_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.493228] (led_interface_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.503344] (-) TimerEvent: {}
+[0.603656] (-) TimerEvent: {}
+[0.679607] (robot_hardware_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.679911] (led_interface_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.703893] (-) TimerEvent: {}
+[0.804380] (-) TimerEvent: {}
+[0.806543] (robot_hardware_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.807522] (led_interface_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.815828] (robot_hardware_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.816486] (robot_hardware_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.817173] (led_interface_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.817442] (robot_hardware_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.817522] (led_interface_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.817627] (led_interface_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.855623] (led_interface_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.855822] (robot_hardware_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.904658] (-) TimerEvent: {}
+[0.922809] (smr_tutorial) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/smr_tutorial', 'build', '--build-base', '/home/vivit/Projects/smr_tutorial/build/smr_tutorial/build', 'install', '--record', '/home/vivit/Projects/smr_tutorial/build/smr_tutorial/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vivit/Projects/smr_tutorial/src/smr_tutorial', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vivit', 'GIT_ASKPASS': '/home/vivit/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/vivit', 'OLDPWD': '/home/vivit/Projects/smr_tutorial/src', 'TERM_PROGRAM_VERSION': '1.99.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-5fee0031-6fed-4d42-a8d5-5279bcf598e8.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/vivit/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/vivit/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vivit/Projects/smr_tutorial/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'vivit', 'NAME': 'DESKTOP-98MUN83', 'WSL_INTEROP': '/run/WSL/409_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/vivit/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.1/:/mnt/c/Users/PC/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/PC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Users/PC/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/PC/AppData/Local/Programs/cursor/resources/app/bin:/snap/bin:/home/vivit/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-dd87288bd3.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/vivit/Projects/smr_tutorial/build/smr_tutorial', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vivit/Projects/smr_tutorial/build/smr_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages:/home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up'}, 'shell': False}
+[0.965230] (robot_hardware_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.965534] (led_interface_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.971575] (robot_hardware_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.971808] (robot_hardware_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.972148] (robot_hardware_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.974176] (led_interface_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.974454] (led_interface_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.974851] (led_interface_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.987181] (robot_hardware_interface) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.987390] (led_interface_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.004874] (-) TimerEvent: {}
+[1.098868] (robot_hardware_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.099838] (led_interface_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.103555] (smr_tutorial) StdoutLine: {'line': b'running egg_info\n'}
+[1.104987] (-) TimerEvent: {}
+[1.114939] (smr_tutorial) StdoutLine: {'line': b'writing ../../build/smr_tutorial/smr_tutorial.egg-info/PKG-INFO\n'}
+[1.115462] (smr_tutorial) StdoutLine: {'line': b'writing dependency_links to ../../build/smr_tutorial/smr_tutorial.egg-info/dependency_links.txt\n'}
+[1.115711] (smr_tutorial) StdoutLine: {'line': b'writing entry points to ../../build/smr_tutorial/smr_tutorial.egg-info/entry_points.txt\n'}
+[1.116087] (smr_tutorial) StdoutLine: {'line': b'writing requirements to ../../build/smr_tutorial/smr_tutorial.egg-info/requires.txt\n'}
+[1.116376] (smr_tutorial) StdoutLine: {'line': b'writing top-level names to ../../build/smr_tutorial/smr_tutorial.egg-info/top_level.txt\n'}
+[1.149777] (smr_tutorial) StdoutLine: {'line': b"reading manifest file '../../build/smr_tutorial/smr_tutorial.egg-info/SOURCES.txt'\n"}
+[1.150683] (smr_tutorial) StdoutLine: {'line': b"writing manifest file '../../build/smr_tutorial/smr_tutorial.egg-info/SOURCES.txt'\n"}
+[1.150888] (smr_tutorial) StdoutLine: {'line': b'running build\n'}
+[1.151052] (smr_tutorial) StdoutLine: {'line': b'running build_py\n'}
+[1.151261] (smr_tutorial) StdoutLine: {'line': b'running install\n'}
+[1.155715] (smr_tutorial) StdoutLine: {'line': b'running install_lib\n'}
+[1.168919] (smr_tutorial) StdoutLine: {'line': b'running install_data\n'}
+[1.169133] (smr_tutorial) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.180720] (smr_tutorial) StdoutLine: {'line': b"removing '/home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages/smr_tutorial-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[1.181346] (smr_tutorial) StdoutLine: {'line': b'Copying ../../build/smr_tutorial/smr_tutorial.egg-info to /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages/smr_tutorial-0.0.0-py3.12.egg-info\n'}
+[1.182185] (smr_tutorial) StdoutLine: {'line': b'running install_scripts\n'}
+[1.194391] (robot_hardware_interface) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.194570] (led_interface_cpp) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.205220] (-) TimerEvent: {}
+[1.269841] (smr_tutorial) StdoutLine: {'line': b'Installing example1 script to /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/smr_tutorial\n'}
+[1.270151] (smr_tutorial) StdoutLine: {'line': b'Installing example2 script to /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/smr_tutorial\n'}
+[1.270433] (smr_tutorial) StdoutLine: {'line': b'Installing example3 script to /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/smr_tutorial\n'}
+[1.270556] (smr_tutorial) StdoutLine: {'line': b'Installing example4 script to /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/smr_tutorial\n'}
+[1.270763] (smr_tutorial) StdoutLine: {'line': b"writing list of installed files to '/home/vivit/Projects/smr_tutorial/build/smr_tutorial/install.log'\n"}
+[1.278469] (robot_hardware_interface) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.278664] (led_interface_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.290627] (led_interface_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.290904] (robot_hardware_interface) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.293570] (smr_tutorial) CommandEnded: {'returncode': 0}
+[1.305813] (-) TimerEvent: {}
+[1.307035] (smr_tutorial) JobEnded: {'identifier': 'smr_tutorial', 'rc': 0}
+[1.312200] (robot_hardware_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.312498] (led_interface_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.332487] (led_interface_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.332687] (robot_hardware_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.406106] (-) TimerEvent: {}
+[1.410926] (robot_hardware_interface) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.411079] (led_interface_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.414399] (led_interface_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.414687] (robot_hardware_interface) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.479040] (led_interface_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.479278] (robot_hardware_interface) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.506367] (-) TimerEvent: {}
+[1.533041] (robot_hardware_interface) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.533295] (led_interface_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.572721] (led_interface_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.573030] (robot_hardware_interface) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.606665] (-) TimerEvent: {}
+[1.677058] (robot_hardware_interface) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.677349] (led_interface_cpp) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.707024] (-) TimerEvent: {}
+[1.716408] (robot_hardware_interface) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.746760] (robot_hardware_interface) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[1.772149] (robot_hardware_interface) StdoutLine: {'line': b'-- Found action_msgs: 2.0.2 (/opt/ros/jazzy/share/action_msgs/cmake)\n'}
+[1.807304] (-) TimerEvent: {}
+[1.833160] (robot_hardware_interface) StdoutLine: {'line': b'-- LibSerial library found: /usr/lib/x86_64-linux-gnu/libserial.so\n'}
+[1.836572] (robot_hardware_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.907801] (-) TimerEvent: {}
+[1.925467] (robot_hardware_interface) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.925868] (robot_hardware_interface) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/vivit/Projects/smr_tutorial/src/robot_hardware_interface/include\n'}
+[1.926065] (robot_hardware_interface) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.926953] (robot_hardware_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.928260] (robot_hardware_interface) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.928485] (robot_hardware_interface) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.929316] (robot_hardware_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.931152] (robot_hardware_interface) StdoutLine: {'line': b'-- Configuring done (1.9s)\n'}
+[1.943842] (robot_hardware_interface) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.947329] (robot_hardware_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/vivit/Projects/smr_tutorial/build/robot_hardware_interface\n'}
+[1.955497] (robot_hardware_interface) CommandEnded: {'returncode': 0}
+[1.956825] (robot_hardware_interface) JobProgress: {'identifier': 'robot_hardware_interface', 'progress': 'build'}
+[1.956875] (robot_hardware_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vivit/Projects/smr_tutorial/build/robot_hardware_interface', '--', '-j12', '-l12'], 'cwd': '/home/vivit/Projects/smr_tutorial/build/robot_hardware_interface', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'vivit', 'GIT_ASKPASS': '/home/vivit/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/vivit', 'OLDPWD': '/home/vivit/Projects/smr_tutorial/src', 'TERM_PROGRAM_VERSION': '1.99.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-5fee0031-6fed-4d42-a8d5-5279bcf598e8.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/vivit/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/vivit/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vivit/Projects/smr_tutorial/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'vivit', 'NAME': 'DESKTOP-98MUN83', 'WSL_INTEROP': '/run/WSL/409_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/vivit/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/libnvvp:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2025.1.1/:/mnt/c/Users/PC/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/PC/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Users/PC/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/PC/AppData/Local/Programs/cursor/resources/app/bin:/snap/bin:/home/vivit/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-dd87288bd3.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/vivit/Projects/smr_tutorial/build/robot_hardware_interface', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up'}), 'shell': False}
+[1.990297] (robot_hardware_interface) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/robot_hardware.dir/src/robot_hardware_interface.cpp.o\x1b[0m\n'}
+[1.990564] (robot_hardware_interface) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/robot_hardware.dir/src/hardware_interface_node.cpp.o\x1b[0m\n'}
+[2.008099] (-) TimerEvent: {}
+[2.109400] (-) TimerEvent: {}
+[2.149643] (led_interface_cpp) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:12 (find_package):\n'}
+[2.149969] (led_interface_cpp) StderrLine: {'line': b'  By not providing "Findserial.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[2.150080] (led_interface_cpp) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "serial", but\n'}
+[2.150164] (led_interface_cpp) StderrLine: {'line': b'  CMake did not find one.\n'}
+[2.150248] (led_interface_cpp) StderrLine: {'line': b'\n'}
+[2.150333] (led_interface_cpp) StderrLine: {'line': b'  Could not find a package configuration file provided by "serial" with any\n'}
+[2.150416] (led_interface_cpp) StderrLine: {'line': b'  of the following names:\n'}
+[2.150480] (led_interface_cpp) StderrLine: {'line': b'\n'}
+[2.150541] (led_interface_cpp) StderrLine: {'line': b'    serialConfig.cmake\n'}
+[2.150608] (led_interface_cpp) StderrLine: {'line': b'    serial-config.cmake\n'}
+[2.150669] (led_interface_cpp) StderrLine: {'line': b'\n'}
+[2.150732] (led_interface_cpp) StderrLine: {'line': b'  Add the installation prefix of "serial" to CMAKE_PREFIX_PATH or set\n'}
+[2.150795] (led_interface_cpp) StderrLine: {'line': b'  "serial_DIR" to a directory containing one of the above files.  If "serial"\n'}
+[2.150858] (led_interface_cpp) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[2.150922] (led_interface_cpp) StderrLine: {'line': b'  installed.\n'}
+[2.150985] (led_interface_cpp) StderrLine: {'line': b'\n'}
+[2.151046] (led_interface_cpp) StderrLine: {'line': b'\x1b[0m\n'}
+[2.151109] (led_interface_cpp) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.159029] (led_interface_cpp) CommandEnded: {'returncode': 1}
+[2.171865] (led_interface_cpp) JobEnded: {'identifier': 'led_interface_cpp', 'rc': 1}
+[2.209554] (-) TimerEvent: {}
+[2.309917] (-) TimerEvent: {}
+[2.369261] (robot_hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivit/Projects/smr_tutorial/src/robot_hardware_interface/src/robot_hardware_interface.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid HardwareInterface::\x1b[01;32m\x1b[KReceiveData\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.369470] (robot_hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivit/Projects/smr_tutorial/src/robot_hardware_interface/src/robot_hardware_interface.cpp:210:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kdata_len\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.369525] (robot_hardware_interface) StderrLine: {'line': b'  210 |         uint8_t \x1b[01;35m\x1b[Kdata_len\x1b[m\x1b[K;\n'}
+[2.369572] (robot_hardware_interface) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.369611] (robot_hardware_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vivit/Projects/smr_tutorial/src/robot_hardware_interface/src/robot_hardware_interface.cpp:213:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcheck_sum\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.369651] (robot_hardware_interface) StderrLine: {'line': b'  213 |         uint8_t \x1b[01;35m\x1b[Kcheck_sum\x1b[m\x1b[K;\n'}
+[2.369695] (robot_hardware_interface) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.410065] (-) TimerEvent: {}
+[2.510796] (-) TimerEvent: {}
+[2.611405] (-) TimerEvent: {}
+[2.711791] (-) TimerEvent: {}
+[2.812381] (-) TimerEvent: {}
+[2.913445] (-) TimerEvent: {}
+[3.014224] (-) TimerEvent: {}
+[3.114889] (-) TimerEvent: {}
+[3.215738] (-) TimerEvent: {}
+[3.316425] (-) TimerEvent: {}
+[3.416957] (-) TimerEvent: {}
+[3.517817] (-) TimerEvent: {}
+[3.618561] (-) TimerEvent: {}
+[3.719482] (-) TimerEvent: {}
+[3.819881] (-) TimerEvent: {}
+[3.920288] (-) TimerEvent: {}
+[4.021107] (-) TimerEvent: {}
+[4.121858] (-) TimerEvent: {}
+[4.223001] (-) TimerEvent: {}
+[4.323316] (-) TimerEvent: {}
+[4.423638] (-) TimerEvent: {}
+[4.523936] (-) TimerEvent: {}
+[4.624198] (-) TimerEvent: {}
+[4.724464] (-) TimerEvent: {}
+[4.824735] (-) TimerEvent: {}
+[4.924990] (-) TimerEvent: {}
+[5.025270] (-) TimerEvent: {}
+[5.125555] (-) TimerEvent: {}
+[5.225841] (-) TimerEvent: {}
+[5.326121] (-) TimerEvent: {}
+[5.426395] (-) TimerEvent: {}
+[5.526810] (-) TimerEvent: {}
+[5.627089] (-) TimerEvent: {}
+[5.727387] (-) TimerEvent: {}
+[5.827635] (-) TimerEvent: {}
+[5.927922] (-) TimerEvent: {}
+[6.028252] (-) TimerEvent: {}
+[6.128748] (-) TimerEvent: {}
+[6.229122] (-) TimerEvent: {}
+[6.329396] (-) TimerEvent: {}
+[6.429664] (-) TimerEvent: {}
+[6.529940] (-) TimerEvent: {}
+[6.630217] (-) TimerEvent: {}
+[6.730512] (-) TimerEvent: {}
+[6.830846] (-) TimerEvent: {}
+[6.931118] (-) TimerEvent: {}
+[7.031397] (-) TimerEvent: {}
+[7.131697] (-) TimerEvent: {}
+[7.231942] (-) TimerEvent: {}
+[7.332188] (-) TimerEvent: {}
+[7.432459] (-) TimerEvent: {}
+[7.532773] (-) TimerEvent: {}
+[7.633028] (-) TimerEvent: {}
+[7.733299] (-) TimerEvent: {}
+[7.833609] (-) TimerEvent: {}
+[7.933847] (-) TimerEvent: {}
+[8.034084] (-) TimerEvent: {}
+[8.134302] (-) TimerEvent: {}
+[8.234643] (-) TimerEvent: {}
+[8.334959] (-) TimerEvent: {}
+[8.435212] (-) TimerEvent: {}
+[8.535502] (-) TimerEvent: {}
+[8.635756] (-) TimerEvent: {}
+[8.736053] (-) TimerEvent: {}
+[8.836298] (-) TimerEvent: {}
+[8.936522] (-) TimerEvent: {}
+[9.036744] (-) TimerEvent: {}
+[9.137028] (-) TimerEvent: {}
+[9.237316] (-) TimerEvent: {}
+[9.337574] (-) TimerEvent: {}
+[9.437907] (-) TimerEvent: {}
+[9.538247] (-) TimerEvent: {}
+[9.638500] (-) TimerEvent: {}
+[9.738797] (-) TimerEvent: {}
+[9.839047] (-) TimerEvent: {}
+[9.939362] (-) TimerEvent: {}
+[10.039635] (-) TimerEvent: {}
+[10.139886] (-) TimerEvent: {}
+[10.240119] (-) TimerEvent: {}
+[10.340373] (-) TimerEvent: {}
+[10.440600] (-) TimerEvent: {}
+[10.540837] (-) TimerEvent: {}
+[10.641146] (-) TimerEvent: {}
+[10.741453] (-) TimerEvent: {}
+[10.841710] (-) TimerEvent: {}
+[10.941980] (-) TimerEvent: {}
+[11.042224] (-) TimerEvent: {}
+[11.098884] (robot_hardware_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable robot_hardware\x1b[0m\n'}
+[11.142304] (-) TimerEvent: {}
+[11.242563] (-) TimerEvent: {}
+[11.342855] (-) TimerEvent: {}
+[11.443149] (-) TimerEvent: {}
+[11.468619] (robot_hardware_interface) StdoutLine: {'line': b'[100%] Built target robot_hardware\n'}
+[11.476690] (robot_hardware_interface) JobEnded: {'identifier': 'robot_hardware_interface', 'rc': 'SIGINT'}
+[11.487774] (-) EventReactorShutdown: {}

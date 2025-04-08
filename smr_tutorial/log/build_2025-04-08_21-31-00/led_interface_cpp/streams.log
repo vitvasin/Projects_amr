@@ -1,0 +1,19 @@
+[0.013s] Invoking command in '/home/vivit/Projects/smr_tutorial/build/led_interface_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy /usr/bin/cmake /home/vivit/Projects/smr_tutorial/src/led_interface_cpp -DCMAKE_INSTALL_PREFIX=/home/vivit/Projects/smr_tutorial/install/led_interface_cpp
+[0.025s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.193s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.279s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.285s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.293s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.302s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.349s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.350s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.455s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.548s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.559s] -- LibSerial library found: /usr/lib/x86_64-linux-gnu/libserial.so
+[0.560s] [31mCMake Error at CMakeLists.txt:33 (target_link_libraries):
+[0.560s]   Cannot specify link libraries for target "led_interface" which is not built
+[0.560s]   by this project.
+[0.560s] 
+[0.560s] [0m
+[0.560s] -- Configuring incomplete, errors occurred!
+[0.566s] Invoked command in '/home/vivit/Projects/smr_tutorial/build/led_interface_cpp' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy /usr/bin/cmake /home/vivit/Projects/smr_tutorial/src/led_interface_cpp -DCMAKE_INSTALL_PREFIX=/home/vivit/Projects/smr_tutorial/install/led_interface_cpp

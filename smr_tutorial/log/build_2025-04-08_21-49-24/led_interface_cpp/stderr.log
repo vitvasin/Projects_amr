@@ -1,0 +1,19 @@
+/usr/bin/ld: CMakeFiles/led_interface_cpp.dir/src/led_interface.cpp.o: in function `LedInterface::LedInterface()':
+led_interface.cpp:(.text._ZN12LedInterfaceC2Ev[_ZN12LedInterfaceC5Ev]+0x12b): undefined reference to `LibSerial::SerialPort::SerialPort()'
+/usr/bin/ld: led_interface.cpp:(.text._ZN12LedInterfaceC2Ev[_ZN12LedInterfaceC5Ev]+0x1ac): undefined reference to `LibSerial::SerialPort::Open(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode const&)'
+/usr/bin/ld: led_interface.cpp:(.text._ZN12LedInterfaceC2Ev[_ZN12LedInterfaceC5Ev]+0x1f5): undefined reference to `LibSerial::SerialPort::SetBaudRate(LibSerial::BaudRate const&)'
+/usr/bin/ld: led_interface.cpp:(.text._ZN12LedInterfaceC2Ev[_ZN12LedInterfaceC5Ev]+0x21f): undefined reference to `LibSerial::SerialPort::SetCharacterSize(LibSerial::CharacterSize const&)'
+/usr/bin/ld: led_interface.cpp:(.text._ZN12LedInterfaceC2Ev[_ZN12LedInterfaceC5Ev]+0x249): undefined reference to `LibSerial::SerialPort::SetStopBits(LibSerial::StopBits const&)'
+/usr/bin/ld: led_interface.cpp:(.text._ZN12LedInterfaceC2Ev[_ZN12LedInterfaceC5Ev]+0x273): undefined reference to `LibSerial::SerialPort::SetParity(LibSerial::Parity const&)'
+/usr/bin/ld: led_interface.cpp:(.text._ZN12LedInterfaceC2Ev[_ZN12LedInterfaceC5Ev]+0x9fd): undefined reference to `LibSerial::SerialPort::~SerialPort()'
+/usr/bin/ld: CMakeFiles/led_interface_cpp.dir/src/led_interface.cpp.o: in function `LedInterface::~LedInterface()':
+led_interface.cpp:(.text._ZN12LedInterfaceD2Ev[_ZN12LedInterfaceD5Ev]+0x2c): undefined reference to `LibSerial::SerialPort::IsOpen() const'
+/usr/bin/ld: led_interface.cpp:(.text._ZN12LedInterfaceD2Ev[_ZN12LedInterfaceD5Ev]+0x42): undefined reference to `LibSerial::SerialPort::Close()'
+/usr/bin/ld: led_interface.cpp:(.text._ZN12LedInterfaceD2Ev[_ZN12LedInterfaceD5Ev]+0x66): undefined reference to `LibSerial::SerialPort::~SerialPort()'
+/usr/bin/ld: CMakeFiles/led_interface_cpp.dir/src/led_interface.cpp.o: in function `LedInterface::callback(std::shared_ptr<std_msgs::msg::Bool_<std::allocator<void> > >)':
+led_interface.cpp:(.text._ZN12LedInterface8callbackESt10shared_ptrIN8std_msgs3msg5Bool_ISaIvEEEE[_ZN12LedInterface8callbackESt10shared_ptrIN8std_msgs3msg5Bool_ISaIvEEEE]+0x40): undefined reference to `LibSerial::SerialPort::IsOpen() const'
+/usr/bin/ld: led_interface.cpp:(.text._ZN12LedInterface8callbackESt10shared_ptrIN8std_msgs3msg5Bool_ISaIvEEEE[_ZN12LedInterface8callbackESt10shared_ptrIN8std_msgs3msg5Bool_ISaIvEEEE]+0xc7): undefined reference to `LibSerial::SerialPort::Write(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/led_interface_cpp.dir/build.make:171: led_interface_cpp] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/led_interface_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

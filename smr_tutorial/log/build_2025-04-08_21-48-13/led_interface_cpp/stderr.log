@@ -1,0 +1,17 @@
+[01m[K/home/vivit/Projects/smr_tutorial/src/led_interface_cpp/src/led_interface.cpp:[m[K In member function ‘[01m[Kvoid LedInterface::[01;32m[Kcallback[m[K(std_msgs::msg::Bool_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/vivit/Projects/smr_tutorial/src/led_interface_cpp/src/led_interface.cpp:49:58:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+   49 |             } catch (const LibSerial::SerialPortException[01;31m[K&[m[K e) {
+      |                                                          [01;31m[K^[m[K
+[01m[K/home/vivit/Projects/smr_tutorial/src/led_interface_cpp/src/led_interface.cpp:49:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[01m[K/home/vivit/Projects/smr_tutorial/src/led_interface_cpp/src/led_interface.cpp:49:21:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   49 |             } catch [01;36m[K([m[Kconst LibSerial::SerialPortException& e) {
+      |                     [01;36m[K^[m[K
+[01m[K/home/vivit/Projects/smr_tutorial/src/led_interface_cpp/src/led_interface.cpp:49:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K&[m[K’ token
+   49 |             } catch (const LibSerial::SerialPortException[01;31m[K&[m[K e) {
+      |                                                          [01;31m[K^[m[K
+[01m[K/home/vivit/Projects/smr_tutorial/src/led_interface_cpp/src/led_interface.cpp:49:60:[m[K [01;31m[Kerror: [m[K‘[01m[Ke[m[K’ was not declared in this scope
+   49 |             } catch (const LibSerial::SerialPortException& [01;31m[Ke[m[K) {
+      |                                                            [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/led_interface_cpp.dir/build.make:76: CMakeFiles/led_interface_cpp.dir/src/led_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/led_interface_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,55 @@
+[0.013s] Invoking command in '/home/vivit/Projects/smr_tutorial/build/hardware_interface_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy /usr/bin/cmake /home/vivit/Projects/smr_tutorial/src/hardware_interface_cpp -DCMAKE_INSTALL_PREFIX=/home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp
+[0.094s] -- The C compiler identification is GNU 13.3.0
+[0.366s] -- The CXX compiler identification is GNU 13.3.0
+[0.585s] -- Detecting C compiler ABI info
+[0.715s] -- Detecting C compiler ABI info - done
+[0.722s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.722s] -- Detecting C compile features
+[0.723s] -- Detecting C compile features - done
+[0.767s] -- Detecting CXX compiler ABI info
+[0.895s] -- Detecting CXX compiler ABI info - done
+[0.902s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.902s] -- Detecting CXX compile features
+[0.902s] -- Detecting CXX compile features - done
+[0.904s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.012s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.082s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.157s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.166s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.176s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.187s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.243s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.246s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.294s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.367s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.410s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.507s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.613s] -- Configuring done (1.6s)
+[1.621s] -- Generating done (0.0s)
+[1.625s] -- Build files have been written to: /home/vivit/Projects/smr_tutorial/build/hardware_interface_cpp
+[1.632s] Invoked command in '/home/vivit/Projects/smr_tutorial/build/hardware_interface_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy /usr/bin/cmake /home/vivit/Projects/smr_tutorial/src/hardware_interface_cpp -DCMAKE_INSTALL_PREFIX=/home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp
+[1.633s] Invoking command in '/home/vivit/Projects/smr_tutorial/build/hardware_interface_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy /usr/bin/cmake --build /home/vivit/Projects/smr_tutorial/build/hardware_interface_cpp -- -j12 -l12
+[1.662s] [ 50%] [32mBuilding CXX object CMakeFiles/led_interface.dir/src/led_interface.cpp.o[0m
+[7.177s] [100%] [32m[1mLinking CXX executable led_interface[0m
+[7.370s] [100%] Built target led_interface
+[7.378s] Invoked command in '/home/vivit/Projects/smr_tutorial/build/hardware_interface_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy /usr/bin/cmake --build /home/vivit/Projects/smr_tutorial/build/hardware_interface_cpp -- -j12 -l12
+[7.379s] Invoking command in '/home/vivit/Projects/smr_tutorial/build/hardware_interface_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy /usr/bin/cmake --install /home/vivit/Projects/smr_tutorial/build/hardware_interface_cpp
+[7.384s] -- Install configuration: ""
+[7.384s] -- Installing: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/lib/hardware_interface_cpp/led_interface
+[7.388s] -- Set non-toolchain portion of runtime path of "/home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/lib/hardware_interface_cpp/led_interface" to ""
+[7.388s] -- Installing: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/share/ament_index/resource_index/package_run_dependencies/hardware_interface_cpp
+[7.388s] -- Installing: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/share/ament_index/resource_index/parent_prefix_path/hardware_interface_cpp
+[7.389s] -- Installing: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/share/hardware_interface_cpp/environment/ament_prefix_path.sh
+[7.389s] -- Installing: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/share/hardware_interface_cpp/environment/ament_prefix_path.dsv
+[7.389s] -- Installing: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/share/hardware_interface_cpp/environment/path.sh
+[7.389s] -- Installing: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/share/hardware_interface_cpp/environment/path.dsv
+[7.389s] -- Installing: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/share/hardware_interface_cpp/local_setup.bash
+[7.389s] -- Installing: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/share/hardware_interface_cpp/local_setup.sh
+[7.390s] -- Installing: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/share/hardware_interface_cpp/local_setup.zsh
+[7.390s] -- Installing: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/share/hardware_interface_cpp/local_setup.dsv
+[7.390s] -- Installing: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/share/hardware_interface_cpp/package.dsv
+[7.390s] -- Installing: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/share/ament_index/resource_index/packages/hardware_interface_cpp
+[7.390s] -- Installing: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/share/hardware_interface_cpp/cmake/hardware_interface_cppConfig.cmake
+[7.390s] -- Installing: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/share/hardware_interface_cpp/cmake/hardware_interface_cppConfig-version.cmake
+[7.390s] -- Installing: /home/vivit/Projects/smr_tutorial/install/hardware_interface_cpp/share/hardware_interface_cpp/package.xml
+[7.392s] Invoked command in '/home/vivit/Projects/smr_tutorial/build/hardware_interface_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy /usr/bin/cmake --install /home/vivit/Projects/smr_tutorial/build/hardware_interface_cpp

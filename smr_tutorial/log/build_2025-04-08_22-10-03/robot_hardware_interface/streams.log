@@ -1,0 +1,12 @@
+[0.016s] Invoking command in '/home/vivit/Projects/smr_tutorial/build/robot_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vivit/Projects/smr_tutorial/install/smr_tutorial:/opt/ros/jazzy /usr/bin/cmake --build /home/vivit/Projects/smr_tutorial/build/robot_hardware_interface -- -j12 -l12
+[0.048s] [ 33%] [32mBuilding CXX object CMakeFiles/robot_hardware.dir/src/robot_hardware_interface.cpp.o[0m
+[0.048s] [ 66%] [32mBuilding CXX object CMakeFiles/robot_hardware.dir/src/hardware_interface_node.cpp.o[0m
+[0.446s] [01m[K/home/vivit/Projects/smr_tutorial/src/robot_hardware_interface/src/robot_hardware_interface.cpp:[m[K In member function ‘[01m[Kvoid HardwareInterface::[01;32m[KReceiveData[m[K()[m[K’:
+[0.446s] [01m[K/home/vivit/Projects/smr_tutorial/src/robot_hardware_interface/src/robot_hardware_interface.cpp:210:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdata_len[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.446s]   210 |         uint8_t [01;35m[Kdata_len[m[K;
+[0.446s]       |                 [01;35m[K^~~~~~~~[m[K
+[0.446s] [01m[K/home/vivit/Projects/smr_tutorial/src/robot_hardware_interface/src/robot_hardware_interface.cpp:213:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcheck_sum[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[0.446s]   213 |         uint8_t [01;35m[Kcheck_sum[m[K;
+[0.446s]       |                 [01;35m[K^~~~~~~~~[m[K
+[10.253s] [100%] [32m[1mLinking CXX executable robot_hardware[0m
+[10.714s] [100%] Built target robot_hardware

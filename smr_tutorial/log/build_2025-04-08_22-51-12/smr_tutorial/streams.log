@@ -1,0 +1,24 @@
+[0.563s] Invoking command in '/home/vivit/Projects/smr_tutorial/src/smr_tutorial': PYTHONPATH=/home/vivit/Projects/smr_tutorial/build/smr_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smr_tutorial build --build-base /home/vivit/Projects/smr_tutorial/build/smr_tutorial/build install --record /home/vivit/Projects/smr_tutorial/build/smr_tutorial/install.log --single-version-externally-managed install_data
+[0.736s] running egg_info
+[0.752s] writing ../../build/smr_tutorial/smr_tutorial.egg-info/PKG-INFO
+[0.752s] writing dependency_links to ../../build/smr_tutorial/smr_tutorial.egg-info/dependency_links.txt
+[0.752s] writing entry points to ../../build/smr_tutorial/smr_tutorial.egg-info/entry_points.txt
+[0.753s] writing requirements to ../../build/smr_tutorial/smr_tutorial.egg-info/requires.txt
+[0.753s] writing top-level names to ../../build/smr_tutorial/smr_tutorial.egg-info/top_level.txt
+[0.775s] reading manifest file '../../build/smr_tutorial/smr_tutorial.egg-info/SOURCES.txt'
+[0.775s] writing manifest file '../../build/smr_tutorial/smr_tutorial.egg-info/SOURCES.txt'
+[0.775s] running build
+[0.776s] running build_py
+[0.776s] running install
+[0.781s] running install_lib
+[0.792s] running install_data
+[0.792s] running install_egg_info
+[0.804s] removing '/home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages/smr_tutorial-0.0.0-py3.12.egg-info' (and everything under it)
+[0.804s] Copying ../../build/smr_tutorial/smr_tutorial.egg-info to /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages/smr_tutorial-0.0.0-py3.12.egg-info
+[0.805s] running install_scripts
+[0.886s] Installing example1 script to /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/smr_tutorial
+[0.887s] Installing example2 script to /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/smr_tutorial
+[0.887s] Installing example3 script to /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/smr_tutorial
+[0.887s] Installing example4 script to /home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/smr_tutorial
+[0.887s] writing list of installed files to '/home/vivit/Projects/smr_tutorial/build/smr_tutorial/install.log'
+[0.908s] Invoked command in '/home/vivit/Projects/smr_tutorial/src/smr_tutorial' returned '0': PYTHONPATH=/home/vivit/Projects/smr_tutorial/build/smr_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vivit/Projects/smr_tutorial/install/smr_tutorial/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smr_tutorial build --build-base /home/vivit/Projects/smr_tutorial/build/smr_tutorial/build install --record /home/vivit/Projects/smr_tutorial/build/smr_tutorial/install.log --single-version-externally-managed install_data

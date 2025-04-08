@@ -1,0 +1,4 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/robot_hardware.dir/src/robot_hardware_interface.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/robot_hardware.dir/src/hardware_interface_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable robot_hardware[0m
+[100%] Built target robot_hardware
