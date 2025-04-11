@@ -90,4 +90,4 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use, mod
 
 For questions or support, feel free to reach out:
 - **GitHub Issues**: [Open an issue](https://github.com/vitvasin/Projects_amr/issues)
-- **SMR Team, NECTEC**: smr-team@example.com (replace with an actual email if needed)
+- **SMR Team, NECTEC, Thailand**
