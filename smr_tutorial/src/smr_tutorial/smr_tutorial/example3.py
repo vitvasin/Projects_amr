@@ -6,7 +6,7 @@ class CmdVelPublisher(Node):
     def __init__(self):
         super().__init__('cmd_vel_publisher')
         self.publisher = self.create_publisher(Twist, 'cmd_vel', 10)
-        self.timer = self.create_timer(0.5, self.send_cmd)  # publish every 0.5 seconds
+        self.timer = self.create_timer(0.08, self.send_cmd)  # publish every 0.5 seconds
 
 
 

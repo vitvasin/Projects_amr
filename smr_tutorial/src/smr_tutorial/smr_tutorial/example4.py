@@ -2,15 +2,16 @@ import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Range
 from geometry_msgs.msg import Twist
+from std_msgs.msg import Float32
 
 class UltrasonicToCmdVel(Node):
     def __init__(self):
         super().__init__('ultrasonic_to_cmdvel')
-        self.sub = self.create_subscription(Range, 'ultrasonic_range', self.range_callback, 10)
+        self.sub = self.create_subscription(Float32, 'ultrasonic_distance', self.range_callback, 10)
         self.pub = self.create_publisher(Twist, 'cmd_vel', 10)
 
     def range_callback(self, msg):
-        distance = msg.range  # ระยะที่อ่านได้ (หน่วย: เมตร)
+        distance = msg.data  # ระยะที่อ่านได้ (หน่วย: เมตร)
         
         twist = Twist()
 

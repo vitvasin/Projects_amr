@@ -5,7 +5,7 @@
 #include <iostream>
 #include <iomanip>
 
-#define HEAD 0xAA
+#define HEAD 0xFF
 #define DEVICE_ID 0x01
 #define FUNC_MOTION 0x02
 
@@ -73,6 +73,12 @@ private:
 
                 // Send the command packet
                 serial_.Write(cmd);
+
+                std::cout << "Sending command: ";
+                for (const auto& byte : cmd) {
+                    std::cout << "0x" << std::hex << std::setw(2) << std::setfill('0') << (int)byte << " ";
+                }
+                std::cout << std::endl;
 
                 RCLCPP_INFO(this->get_logger(), "Sent /cmd_vel to controller: v_x=%.2f, v_y=%.2f, v_z=%.2f",
                             msg->linear.x, msg->linear.y, msg->angular.z);

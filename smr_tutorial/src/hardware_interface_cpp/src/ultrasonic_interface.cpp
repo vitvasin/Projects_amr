@@ -59,7 +59,7 @@ private:
                 msg.data = distance;
                 pub_->publish(msg);
 
-                RCLCPP_INFO(this->get_logger(), "Published distance: %.2f", distance);
+                //RCLCPP_INFO(this->get_logger(), "Published distance: %.2f", distance);
             } catch (const LibSerial::ReadTimeout&) {
                 RCLCPP_WARN(this->get_logger(), "Read timeout from ultrasonic sensor.");
             }

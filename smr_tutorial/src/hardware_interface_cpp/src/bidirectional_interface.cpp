@@ -7,7 +7,7 @@
 #include <sstream>
 #include <iomanip>
 
-#define HEAD 0xAA
+#define HEAD 0xFF
 #define DEVICE_ID 0x01
 #define FUNC_RANGE 0x03
 #define FUNC_MOTION 0x02
@@ -73,6 +73,7 @@ private:
             std::vector<uint8_t> data;
 
             while (run_receive_thread_) {
+
                 if (serial_.IsDataAvailable()) {
                     serial_.ReadByte(header, SERIALPORT_TIMEOUT_MS);
 
