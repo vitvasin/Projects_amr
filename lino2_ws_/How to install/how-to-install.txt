@@ -1,0 +1,5 @@
+sudo apt-get install dselect
+sudo apt-key add repo-keys
+sudo dpkg --set-selections < installed-packages
+sudo apt-get dselect-upgrade -y
+
